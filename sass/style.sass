@@ -1,0 +1,28 @@
+// variables
+$text_color: yellow
+
+// mixins
+@mixin box
+  display: block
+  width: 300px
+  height: 200px
+  background-color: royalblue
+
+body
+  background-color: green
+  border: gray
+
+h1
+  color: $text_color
+  font-size: 50px
+
+.block
+  background-color: grey
+  h3
+    color: $text_color
+  &_color
+    background-color: violet
+    button
+      @include box
+
+

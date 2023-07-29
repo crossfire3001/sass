@@ -1,0 +1,21 @@
+body {
+  background-color: green;
+  border: gray; }
+
+h1 {
+  color: yellow;
+  font-size: 50px; }
+
+.block {
+  background-color: grey; }
+  .block h3 {
+    color: yellow; }
+  .block_color {
+    background-color: violet; }
+    .block_color button {
+      display: block;
+      width: 300px;
+      height: 200px;
+      background-color: royalblue; }
+
+/*# sourceMappingURL=style.css.map */
